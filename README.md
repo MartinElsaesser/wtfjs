@@ -188,8 +188,8 @@ true == ![]; // -> false
 
 true == []; // -> false
 
-toNumber(true); // -> 1
-toNumber([]); // -> 0
+Number(true); // -> 1
+Number([]); // -> 0
 
 1 == 0; // -> false
 
@@ -208,8 +208,8 @@ false == ![]; // -> true
 
 false == []; // -> true
 
-toNumber(false); // -> 0
-toNumber([]); // -> 0
+Number(false); // -> 0
+Number([]); // -> 0
 
 0 == 0; // -> true
 
